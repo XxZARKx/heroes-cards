@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/* header styles */
+
+header p{
+    background-color: #1CD1B0;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1{
+    background-color: #00669F;
+    margin: 0;
+    padding: 20px;
+}
+
+/* main styles */
+
+main{
+    text-align: center;
+}
+
+main .card{
+    width: 300px;
+    height: 529px;
+    background-color: #F3F3F3;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    display: inline-block;
+    margin: 100px 80px 0 80px;
+}
+
+main .card p {
+    padding: 10px 20px;
+    text-align: start;
+    margin: 10px 0 30px 0;
+}
+
+main .card span{
+    background-color: #00669F;
+    padding: 10px 20px;
+    color: white;
+}
+
+main .card h2{
+    margin: 70px 0 0 0;
+}
+
+.like{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.personaje{
+    position: absolute;
+    border-radius: 50%;
+    left: 90px;
+    right: 90px;
+    top: 130px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: #00669F;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
